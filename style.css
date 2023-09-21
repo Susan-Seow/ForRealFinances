@@ -1,0 +1,95 @@
+html, body, h1, h2, p, a  {
+    padding: 0;
+    border: 0;
+    margin: 0;
+} 
+body {
+    margin: 10;
+    background-color: rgb(246, 243, 240));
+}
+h1 {
+   padding: 20;
+   font-family: Arial, Helvetica, sans-serif;
+   color: antiquewhite;
+   font-size: 22px;
+}
+
+.SiteNavBar {
+   padding: 20px;
+   background-color: rgb(240, 163, 31);
+   float: fixed;
+}
+ 
+a {
+  color: antiquewhite;
+}
+
+.nav {
+   margin-bottom: 20px;
+   float: right;
+   text-size: 15px;
+}
+
+h2 {
+   color: black;
+   font-display: center;
+   text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.Boxes {
+    clear: both;
+    text-align: center;
+ }
+
+.first {
+    background-color: antiquewhite;
+    height: 350px;
+    width: 200px;
+    border: 5px solid rgb(241, 203, 138);
+    float: left;
+    margin: 20px;
+}
+
+.second {
+    background-color: antiquewhite;
+    height: 350px;
+    width: 200px;
+    border: 5px solid rgb(241, 203, 138);
+    float: left;
+    margin: 20px;
+}
+
+.third {
+    background-color: antiquewhite;
+    height: 350px;
+    width: 200px;
+    border: 5px solid rgb(241, 203, 138);
+    float: left;
+    margin: 20px;
+}
+
+.fourth {
+    background-color: antiquewhite;
+    height: 350px;
+    width: 200px;
+    border: 5px solid rgb(241, 203, 138);
+    float: left;
+    margin: 20px;
+}
+.checkbox input[type=button], input[type=submit], input[type=reset] {
+    height: 20px;
+    width: 80px;
+    background-color: rgb(240, 163, 31);
+    border: none;
+    color: white;
+    padding: 5px 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
