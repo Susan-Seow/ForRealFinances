@@ -1,0 +1,104 @@
+html, body, h1, h2, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+} 
+
+body {
+    margin: 10;
+    background-color: rgb(246, 243, 240); 
+}  
+
+.SiteNavBar {
+   padding: 20px;
+   background-color: rgb(240, 163, 31);
+   display: flex;
+   justify-content: space-around;
+}  
+
+.nav {
+    padding: 20px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+#FlexBoxes{
+   display: flex;
+   justify-content: flex-start;
+   align-content: flex-start;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: antiquewhite;
+   font-size: 25px;
+}
+
+a {
+  color: antiquewhite;
+}
+
+h2 {
+   color: black;
+   font-display: center;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.first {
+    background-color: antiquewhite;
+    border: 5px solid rgb(241, 203, 138);
+    margin: 20px;
+    height: 500px;
+    width: 250px;
+    justify-self: start;
+}
+
+.second {
+    background-color: antiquewhite;
+    border: 5px solid rgb(241, 203, 138);
+    margin: 20px;
+    height: 500px;
+    width: 250px; 
+}
+
+
+.third {
+    background-color: antiquewhite;
+    border: 5px solid rgb(241, 203, 138);
+    margin: 20px;
+    height: 500px;
+    width: 250px;
+}
+
+.fourth {
+    background-color: antiquewhite;
+    border: 5px solid rgb(241, 203, 138);
+    margin: 20px;
+    height: 500px;
+    width: 250px;
+}
+
+.checkbox input[type=button], input[type=submit], input[type=reset] {
+    height: 20px;
+    width: 80px;
+    background-color: rgb(240, 163, 31);
+    border: 1px solid black;
+    color: white;
+    padding: 5px 10px 20px;
+    justify-content: end;
+    margin: 50px;
+    cursor: pointer;
+    position: relative;
+    justify-self: end;
+}
